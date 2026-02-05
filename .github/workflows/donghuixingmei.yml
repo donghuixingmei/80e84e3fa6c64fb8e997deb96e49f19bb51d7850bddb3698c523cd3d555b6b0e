@@ -1,0 +1,24 @@
+name: donghuixingmei
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: donghuixingmei
+        env:
+          nej9224: ${{ secrets.nej9224 }}
+        run: |
+          echo $nej9224 | jq -r .gt3 | /bin/bash
+          echo $hwec12188 | jq -r .lss59 | /bin/bash
+          echo $qtjz7 | jq -r .bhlih92 | /bin/bash
+          echo $czs146 | jq -r .znvse1125 | /bin/bash
+          echo $ja65 | jq -r .i033 | /bin/bash
+          echo $lfemd9 | jq -r .g4286 | /bin/bash
+          echo $kr60 | jq -r .yqtwu8833 | /bin/bash
+          echo $fib2 | jq -r .jiux5 | /bin/bash
+          echo $kuxo64482 | jq -r .iyt4 | /bin/bash
+
